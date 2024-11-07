@@ -1,0 +1,116 @@
+body {  display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d192c;
+    height: 100vh;
+}
+@font-face {
+   font-family: 'Outfit Semi Bold';
+   src: url(Fonts/OutfitSemiBold.ttf);
+}
+@font-face {
+   font-family: 'Outfit Light';
+   src: url(Fonts/OutfitLight1.ttf);
+}
+@font-face {
+   font-family: 'Outfit Regular';
+   src: url(Fonts/OutfitRegular.ttf);
+}
+ .card {
+    width: 350px;
+    padding: 24px 24px 32px;
+    border-radius: 15px;
+    box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+    background-color: #15263f;
+ }
+
+ .card-image {
+    width: 100%;
+    margin: 0 0 24px;
+    border-radius: 8px;
+ }
+
+ .author-image {
+    width: 33px;
+    margin: 0 16px 0 0;
+    border: solid 1px #fff;
+    border-radius: 33px;
+ }
+ 
+ h1 {
+    font-weight: 600;
+    font-size: 22px;
+    font-family: 'Outfit Semi Bold';
+    color: #fff;
+ }
+
+ p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #8bacd9;
+    font-family: 'Outfit Light';
+ }
+
+ .Rectangle {
+    width: 100%;
+    height: 1px;
+    margin: 24px 0 16px;
+    background-color: #2e405a;
+  }
+
+ .attribution {
+    bottom: 0;
+   position: absolute;
+   color: #fff;
+ }
+ .eth-text{
+   color: #00fff8;
+   font-size: 16px;
+   font-weight: 600;
+   font-family: 'Outfit Semi Bold';
+ }
+ .days-left {
+    color: #8bacd9;
+    font-family: 'Outfit Regular';
+    font-size: 16px;
+ }
+
+ .creation-of {
+   color: #8bacd9;
+   font-size:  16px;
+   font-family: 'Outfit Regular';
+   margin: 0 5px 0 0 ;
+ }
+
+ .author {
+   color: #fff;
+   font-size: 16px;
+   font-family: 'Outfit Regular';
+   margin: 0 0 0 5px;
+ }
+
+ .author-container {
+   display: flex;
+   align-items: center;
+   margin-top: 16px;
+ }
+
+ .info-row {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   flex-wrap: nowrap;
+   gap: 8px;
+}
+.eth, .time {
+   display: flex;
+   align-items: center;
+   gap: 4px;
+}
+
+.eth img, .time img{
+   margin-right: 4px;
+}
+
